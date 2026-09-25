@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "sketch_sep17a.ino.bin",
+          "path": "sketch_sep25b.ino.bin",
           "offset": 65536
         }
       ]
