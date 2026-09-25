@@ -1,14 +1,15 @@
 {
-  "name": "AgriSWNW Smart Node",
-  "version": "1.0",
+  "name": "AgriSWNW Sensor Node",
+  "version": "2.0.0",
+  "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        {
-          "path": "sketch_sep25b.ino.bin",
-          "offset": 65536
-        }
+        { "path": "agriswnw.ino.bootloader.bin", "offset": 4096 },
+        { "path": "agriswnw.ino.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "agriswnw.ino.bin", "offset": 65536 }
       ]
     }
   ]
