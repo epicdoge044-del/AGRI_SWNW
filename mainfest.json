@@ -1,0 +1,15 @@
+{
+  "name": "AgriSwnw Smart Node",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "sketch_sep25a.ino.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
