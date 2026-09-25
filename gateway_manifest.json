@@ -6,10 +6,10 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "gateway.ino.bootloader.bin", "offset": 4096 },
-        { "path": "gateway.ino.partitions.bin", "offset": 32768 },
+        { "path": "AgriSWNWgateway.ino.bootloader.bin", "offset": 4096 },
+        { "path": "AgriSWNWgateway.ino.partitions.bin", "offset": 32768 },
         { "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "gateway.ino.bin", "offset": 65536 }
+        { "path": "AgriSWNWgateway.ino.bin", "offset": 65536 }
       ]
     }
   ]
